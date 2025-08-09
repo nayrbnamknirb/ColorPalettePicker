@@ -1,0 +1,22 @@
+.desc {
+    max-width: 80%;
+    margin: auto;
+}
+
+.greenbtn {
+    background-color: #04a73B;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: .75rem 1rem;
+    margin-top: 2rem;
+}
+
+.active {
+    border: solid 2px white;
+}
+
+.greenbtn:hover, .greenbtn:active {
+    text-decoration: underline;
+    font-weight: bold;
+}

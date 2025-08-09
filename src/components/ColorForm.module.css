@@ -1,0 +1,57 @@
+.white {
+    background-color: white;
+    border-radius: 2rem;
+    width: 75%;
+    padding: 1rem 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.white h1 {
+    text-align: center;
+}
+
+.white label {
+    text-align: left;
+    width: 10%;
+}
+
+.white input {
+    width: 100%;
+}
+
+.white textarea {
+    width: 100%;
+}
+
+.white textarea {
+    resize: none;
+}
+
+.success {
+    color: green
+}
+
+.error {
+    color: red;
+}
+
+.button {
+    border-radius: 6px;
+    background-color:royalblue;
+    color: white;
+    text-decoration: none;
+    padding: .75rem 1rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+.button:disabled {
+     background-color:lightskyblue;
+}
+
+.button:hover, .button:active {
+    text-decoration: underline;
+    font-weight: bold;
+}

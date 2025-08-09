@@ -1,0 +1,41 @@
+.jumbotron {
+    background: linear-gradient(120deg, #c60303, #047CC7, #04a73B);
+    background-position-x: left;
+    background-position-y: center;
+    background-size: 100%;
+}
+
+.padOut {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.embiggen {
+    font-size: larger;
+    margin-top: 1rem;
+}
+
+.bottomPad {
+    padding-bottom: .75rem;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+}
+
+.cardBG1 {
+    background: linear-gradient(60deg, #047CC7, #C7C404);
+    background-position-x: left;
+    background-position-y: center;
+    background-size: 100%;
+    margin-bottom: .5rem;
+}
+
+.cardBG2 {
+    background: linear-gradient(160deg, #d7d7d9, #C404C7);
+    background-position-x: left;
+    background-position-y: center;
+    background-size: 100%;
+    margin-bottom: .5rem;
+}

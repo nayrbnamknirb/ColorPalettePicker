@@ -1,0 +1,12 @@
+.currentColor {
+    margin-top: 1rem;
+}
+
+.currentColor div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    width: 10%;
+    font-size: small;
+    min-width: 120px;
+}

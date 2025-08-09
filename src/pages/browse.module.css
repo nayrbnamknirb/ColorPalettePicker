@@ -1,0 +1,24 @@
+.colorList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 1.5rem 0 1.5rem;
+    gap: 1.5rem;
+}
+
+@media only screen and (min-width: 500px) {
+    .colorList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .colorList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .colorList {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

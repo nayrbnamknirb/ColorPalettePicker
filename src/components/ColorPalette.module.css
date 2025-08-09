@@ -1,0 +1,22 @@
+.colorList {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.colorList div {
+    padding: 1rem 0 1rem 0;
+}
+
+.button {
+    border-radius: 6px;
+    background-color: #04a73B;
+    color: white;
+    text-decoration: none;
+    padding: .75rem 1rem;
+    margin-top: 2rem;
+}
+
+.button:hover, .button:active {
+    text-decoration: underline;
+    font-weight: bold;
+}

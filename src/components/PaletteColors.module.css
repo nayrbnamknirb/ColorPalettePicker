@@ -1,0 +1,43 @@
+.colorList {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.colorList button {
+    border: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 2px;
+    min-width: 120px;
+}
+
+.mobileShow {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .mobileShow {
+        display: block;
+    }
+
+    .colorList {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.plaintext {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 1rem 0 1rem;
+    width: 10%;
+    min-width: 100px;
+    margin: auto;
+}
+
+.success {
+    color: green
+}
+
+.error {
+    color: red;
+}

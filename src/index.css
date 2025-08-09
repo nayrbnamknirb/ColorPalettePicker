@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: aliceblue;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    margin: auto auto 1rem auto;
+    text-align: center;
+}
+
+p {
+  max-width: 80%;
+  margin: auto;
+}
+
+/* button styles */
+
+.btn {
+    text-decoration: none;
+    border-radius: 6px;
+    padding: .75rem 1rem;
+    margin-top: 1.5rem;
+}
+
+.btn:hover, .btn:active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.redbtn {
+    background-color:#c60303;
+    color: white;
+}
+
+.bluebtn {
+    background-color:#047CC7;
+    color: white;
+}
+
+.greenbtn {
+    background-color:#04a73B;
+    color: white;
+}
+
+.yellowbtn {
+    background-color:#C7C404;
+    color: black;
+    border: none;
+}
+
+
+/* these are used to force the buttons on the home page to center*/
+
+.center {
+  display:flex;
+  margin: 2rem auto;
+}
+
+.block {
+  text-align: left;
+  margin: 0 auto 0 0
+}
+
+.blocke {
+  text-align: left;
+  margin: 0 0 0 auto
+}
+
+/* for the form */
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control label,
+.form-control textarea {
+  display: block;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: none;
+  border-color: #240370;
+  background-color: #e0d4fd;
+}
+
+.control-group {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control-group .form-control {
+  min-width: 15rem;
+  flex: 1;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.form-actions button {
+  margin-left: 1rem;
+}
+
+.invalid input, .invalid textarea {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus, .invalid textarea:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+}
