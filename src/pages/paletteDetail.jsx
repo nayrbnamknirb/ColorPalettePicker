@@ -29,7 +29,6 @@ function PaletteDetailPage(props) {
     
                 for (const key in responseData) {
                     if (key == params.palId) {
-                        console.log(responseData[key])
                         setName(responseData[key].name)
                         setDesc(responseData[key].message)
 

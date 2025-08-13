@@ -14,7 +14,6 @@ function CreatePage() {
     const [colorMode, setColorMode] = useState(() => colorLib.Quadcolor)
 
     const runColorMode = (event) => {
-        console.log(parseInt(event.target.value))
         switch(parseInt(event.target.value)) {
             case 1:
                 setColorMode(() => colorLib.Quadcolor)
